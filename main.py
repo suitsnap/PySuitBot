@@ -16,7 +16,7 @@ with open("BadWords.txt", "r") as f:
     words = f.read()
     badwords = words.splitlines()
 
-token_shush = "ODg0NDk0MzgzNTc0MDQ4Nzk4.YTZTlg.HBNPMNA_FSa12Z_aJFR6GscJui8"
+token_shush = ""
 
 intents = discord.Intents.default()
 intents.members = True
